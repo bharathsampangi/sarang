@@ -1,0 +1,46 @@
+.nav {
+    display: flex;
+    padding: 1rem 2vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+}
+
+.list > li {
+    padding: .5rem 1rem;
+    margin: 0 .5rem;
+    font-size: .9rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.listButton {
+    background-color: #D6BA43;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: none;
+}
+
+.active {
+    color: var(--primary-color);
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+    .nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .listButton {
+        display: block;
+    }
+}
