@@ -9,7 +9,7 @@ export default function Navbar({ active='' }) {
         <nav className={styles.nav}>
             <div className={styles.logo}>
                 <Link href="/">
-                    <Image src={Logo} alt="Logo" className="logo" height={100}/>
+                    <Image src={Logo} alt="Logo" className="logo" height={90}/>
                 </Link>
             </div>
             <ul className={styles.list}>
