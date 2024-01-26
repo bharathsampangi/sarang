@@ -1,11 +1,13 @@
 .landingContainer {
     display: flex;
-    height: 80vh;
+    height: 70vh;
 }
 
 .landingMain {
     background-image: url("/images/Sarang-Microsite-Desktop-Banner-Nov11.webp");
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     flex-basis: 70%;
 }
 
