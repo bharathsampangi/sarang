@@ -1,0 +1,48 @@
+.about {
+    margin: 2rem auto;
+    max-width: 1200px;
+    padding: 2rem;
+}
+
+.aboutContainer {
+    display: flex;
+    width: 100%;
+}
+
+.aboutText {
+    padding-right: 2.5rem;
+
+    .Title{
+        font-weight: 100;
+        font-size: 45px;
+    }
+
+    .SubTitle  {
+        font-weight: 400;
+    }
+}
+
+.aboutTextPara {
+    line-height: 1.5rem;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
+.aboutImage {
+    align-self: center;
+}
+
+.button {
+    background-color: #c28562;
+    width: 100%;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: inherit;
+    border: 1px solid #D6BA43;
+    padding: 1rem 2rem;
+    display: block;
+    color: #fff;
+    margin-top: 1.5rem;
+    max-width: 300px;
+    letter-spacing: 3px;
+}

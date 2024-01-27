@@ -1,0 +1,51 @@
+.floorPlans {
+    margin: 2rem auto;
+    max-width: 1200px;
+    padding: 2rem;
+}
+
+.floorPlansContainer {
+    display: flex;
+    width: 100%;
+}
+
+.Title{
+    font-weight: 100;
+    font-size: 45px;
+    text-align: center;
+}
+
+.SubTitle  {
+    font-weight: 400;
+    text-align: center;
+}
+
+.floorPlansText {
+    align-self: center;
+}
+
+.floorPlansTextPara {
+    line-height: 1.5rem;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
+.floorPlansImage {
+    align-self: center;
+    padding-right: 2.5rem;
+}
+
+.button {
+    background-color: #c28562;
+    width: 100%;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: inherit;
+    border: 1px solid #D6BA43;
+    padding: 1rem 2rem;
+    display: block;
+    color: #fff;
+    margin-top: 1.5rem;
+    max-width: 300px;
+    letter-spacing: 3px;
+}

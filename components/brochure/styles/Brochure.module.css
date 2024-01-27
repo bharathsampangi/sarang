@@ -1,0 +1,48 @@
+.brochure {
+    background: url("/images/home-1-background-patern-2.webp");
+}
+
+.brochureContainer {
+    margin: 2rem auto;
+    max-width: 1200px;
+    padding: 2rem;
+}
+
+.brochureContent {
+    display: flex;
+    justify-content: center;
+}
+
+.Title{
+    font-weight: 100;
+    font-size: 45px;
+    margin: 1rem 0;
+}
+
+.SubTitle  {
+    font-weight: 400;
+    margin: .5rem 0;
+}
+
+.brochureText {
+    color: #fff;
+    flex-basis: 50%;
+}
+
+.brochureButton {
+}
+
+.button {
+    background-color: #fff;
+    width: 100%;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: inherit;
+    border: 1px solid #c28562;
+    padding: 1rem 2rem;
+    color: #c28562;
+    margin-top: 1.5rem;
+    max-width: 300px;
+    width: 300px;
+    letter-spacing: 3px;
+}

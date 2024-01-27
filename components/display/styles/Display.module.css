@@ -1,0 +1,33 @@
+.DisplayContainer {
+    background-image: url("/images/home-1-background-patern-1.jpg");
+    background-size: contain;
+}
+
+.DisplayBlock {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.DisplayBlock > ul {
+    display: flex;
+    list-style: none;
+}
+
+.List > li {
+    flex-basis: 25%;
+    text-align: center;
+}
+
+.ListHeader {
+    font-size: 5rem;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+    color: #c28562;
+}
+
+.ListText {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
