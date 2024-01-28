@@ -9,7 +9,7 @@ export default function Location() {
     return (
         <div>
             <Head>
-                <title>Sumadhura Folium Whitefield,Price/Reviews by Sumadhura Group</title>
+                <title>Sarang by Sumadhura - 3bhk & 4bhk Premium flats in Whitefield</title>
                 <meta charSet="utf-8"/>
                 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
                 <meta name="description" content="Sumadhura Folium is a luxury high-rise apartment project in Whitefield, Bangalore. Get all details about Price/Locations/Status and apartments from here." />

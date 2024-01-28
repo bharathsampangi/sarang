@@ -1,10 +1,10 @@
 import React from "react"
-import About from "../About/About"
 import Display from "../display/Display"
 import FloorPlans from "../floor-plans/FloorPlans"
 import Brochure from "../brochure/Brochure"
 import EnquireNow from "../enquire-now/EnquireNow"
 import Footer from "../footer/Footer"
+import About from "../about-page/About"
 
 const Landing = () => {
     return (
