@@ -1,5 +1,5 @@
 .about {
-    margin: 2rem auto;
+    margin: 1rem auto;
     max-width: 1200px;
     padding: 2rem;
 }
@@ -11,15 +11,16 @@
 
 .aboutText {
     padding-right: 2.5rem;
+    flex-basis: 60%;
+}
 
-    .Title{
-        font-weight: 100;
-        font-size: 45px;
-    }
+.Title{
+    font-weight: 100;
+    font-size: 45px;
+}
 
-    .SubTitle  {
-        font-weight: 400;
-    }
+.SubTitle  {
+    font-weight: 400;
 }
 
 .aboutTextPara {
@@ -30,6 +31,13 @@
 
 .aboutImage {
     align-self: center;
+    position: relative;
+    flex-basis: 40%;
+}
+
+.image {
+    height: 100%;
+    width: 100%
 }
 
 .button {
@@ -45,4 +53,22 @@
     margin-top: 1.5rem;
     max-width: 300px;
     letter-spacing: 3px;
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        margin: 2rem auto;
+        padding: 1rem;
+    }
+
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+
+    .aboutText {
+        padding-right: 0;
+        flex-basis: 50%;
+    }
 }

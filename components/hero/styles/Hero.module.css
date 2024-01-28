@@ -9,6 +9,7 @@
     background-position: center;
     background-repeat: no-repeat;
     flex-basis: 70%;
+    height: 100%;
 }
 
 .landingQuery {
@@ -17,7 +18,7 @@
     flex-basis: 30%;
     display: flex;
     align-items: center;
-    font-size: 500;
+    height: 100%;
 }
 
 .landingText {
@@ -198,4 +199,22 @@
     color: #fff;
     margin-top: 1.5rem;
     letter-spacing: 3px;
+}
+
+@media screen and (max-width: 768px) {
+    .landingContainer {
+        display: block;
+        height: 100%;
+    }
+
+    .landingMain {
+        height: 70vh;
+        background: url("/images/Sarang-Microsite-Mobile-Banner-Nov.webp");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .landingQuery {
+    }
 }

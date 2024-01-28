@@ -9,10 +9,11 @@
 .list {
     list-style: none;
     display: flex;
+    padding-left: 0;
 }
 
 .list > li {
-    padding: .5rem 1rem;
+    padding: .5rem .5rem;
     margin: 0 .5rem;
     font-size: .9rem;
     cursor: pointer;
@@ -20,14 +21,14 @@
 }
 
 .listButton {
-    background-color: #D6BA43;
+    background-color: #c28562;
     cursor: pointer;
     text-transform: uppercase;
     display: none;
 }
 
 .active {
-    color: var(--primary-color);
+    color: #c28562;
 }
 
 .logo {
@@ -39,8 +40,15 @@
     .nav {
         flex-direction: row;
         justify-content: space-between;
+        padding: .25rem;
     }
     .listButton {
         display: block;
+    }
+
+    .list > li {
+        padding: .5rem 1rem;
+        margin: 0 .5rem;
+        font-size: .9rem;
     }
 }

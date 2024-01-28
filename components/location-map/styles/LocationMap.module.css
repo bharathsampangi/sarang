@@ -1,0 +1,48 @@
+.location {
+    margin: 2rem auto;
+    max-width: 1600px;
+    padding: 2rem;
+}
+
+.locationContainer {
+    display: flex;
+}
+
+.locationText {
+    padding-right: 2.5rem;
+    flex-basis: 50%;
+    align-self: center;
+
+    .Title{
+        font-weight: 100;
+        font-size: 45px;
+    }
+
+    .SubTitle  {
+        font-weight: 400;
+    }
+}
+
+.locationTextPara {
+    line-height: 1.5rem;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
+.locationImage {
+    height: 100%;
+    flex-basis: 50%;
+    position: relative;
+}
+
+.image {
+    height: 100%;
+    width: 100%
+}
+
+@media screen and (max-width: 768px) {
+    .locationContainer {
+        display: flex;
+        flex-direction: column;
+    }
+}

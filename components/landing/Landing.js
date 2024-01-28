@@ -4,6 +4,7 @@ import Display from "../display/Display"
 import FloorPlans from "../floor-plans/FloorPlans"
 import Brochure from "../brochure/Brochure"
 import EnquireNow from "../enquire-now/EnquireNow"
+import Footer from "../footer/Footer"
 
 const Landing = () => {
     return (
@@ -11,8 +12,9 @@ const Landing = () => {
             <About />
             <Display />
             <FloorPlans />
-            <Brochure />
+            <Brochure link="#enquire" />
             <EnquireNow />
+            <Footer />
         </>
     )
 }

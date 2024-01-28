@@ -4,15 +4,12 @@ import styles from "./styles/EnquireNow.module.css"
 const EnquireNow = () => {
     return (
         <>
-            <section className={styles.enquireBox}>
-
-            </section>
             <section className={styles.enquire}>
-                <div className={styles.enquireContainer}>
+                <div className={styles.enquireContainer} id="enquire">
                     <h2 className={styles.header}>Enquire Now</h2>
                     <form
                         className={styles.form}
-                        action="https://api.web3forms.com/submit"
+                        action="https://api.web3forms.com/submit" 
                         method="POST"
                     >
                         <input

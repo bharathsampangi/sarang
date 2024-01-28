@@ -12,6 +12,7 @@
 .DisplayBlock > ul {
     display: flex;
     list-style: none;
+    padding-left:0;
 }
 
 .List > li {
@@ -30,4 +31,15 @@
 .ListText {
     font-size: 1.25rem;
     font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+    .DisplayBlock {
+        max-width: 600px;
+        margin: .5rem auto;
+    }
+
+    .DisplayBlock > ul {
+        display: block;
+    }
 }

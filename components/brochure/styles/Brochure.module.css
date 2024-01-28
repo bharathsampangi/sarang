@@ -3,7 +3,7 @@
 }
 
 .brochureContainer {
-    margin: 2rem auto;
+    margin: 2rem auto 0;
     max-width: 1200px;
     padding: 2rem;
 }
@@ -49,4 +49,11 @@
     max-width: 300px;
     width: 300px;
     letter-spacing: 3px;
+}
+
+@media screen and (max-width: 768px) {
+    .brochureContent {
+        display: flex;
+        flex-direction: column;
+    }
 }

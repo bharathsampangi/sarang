@@ -1,0 +1,29 @@
+.masterPlan {
+    background: url("/images/home-1-background-patern-2.webp");
+}
+
+.masterPlanWrapper {
+    margin: 2rem auto 0;
+    max-width: 1200px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    font-weight: 100;
+    font-size: 45px;
+    color: #fff;
+}
+
+.imageContainer {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.image {
+    height: 100%;
+    width: 100%
+}

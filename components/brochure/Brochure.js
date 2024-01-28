@@ -1,7 +1,8 @@
 import React from "react"
 import styles from "./styles/Brochure.module.css"
+import Link from "next/link"
 
-const Brochure = () => {
+const Brochure = ({link}) => {
     return (
         <section className={styles.brochure}>
             <div className={styles.brochureContainer}>
@@ -11,7 +12,11 @@ const Brochure = () => {
                         <h3 className={styles.SubTitle}>To know more details about this project</h3>
                     </div>
                     <div className={styles.brochureButton}>
-                        <button type="button" className={styles.button}>Download Brochure</button>
+                        <button type="button" className={styles.button}>
+                            <Link href={link}>
+                                Download Brochure
+                            </Link>  
+                        </button>
                     </div>
                 </div>
             </div>

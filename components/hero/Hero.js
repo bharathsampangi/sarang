@@ -6,7 +6,7 @@ export default function Hero() {
             <div className={styles.landingContainer}>
                 <div className={styles.landingMain}></div>
                 <div className={styles.landingQuery}>
-                    <section className={styles.enquire}>
+                    <div className={styles.enquire}>
                         <h3 className={styles.header}>Request A Callback</h3>
                         <form
                             className={styles.form}
@@ -42,7 +42,7 @@ export default function Hero() {
                             </div>
                             <button type="submit" className={styles.button}>Submit</button>
                         </form>
-                    </section>
+                    </div>
                 </div>
             </div>
         </section>

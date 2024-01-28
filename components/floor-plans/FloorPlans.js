@@ -2,7 +2,7 @@ import React from "react"
 import styles from "./styles/FloorPlans.module.css"
 import Image from "next/image";
 import FloorPlansImage from "../../public/images/2-BHK-Smart-West-1536x1536.webp"
-import classnames from "classnames";
+import Link from "next/link";
 
 const FloorPlans = () => {
     return (
@@ -13,7 +13,7 @@ const FloorPlans = () => {
             </div>
             <div className={styles.floorPlansContainer}>
                 <div className={styles.floorPlansImage}>
-                    <Image src={FloorPlansImage} height={450}/>
+                    <Image src={FloorPlansImage} height={450} className={styles.image}/>
                 </div>
                 <div className={styles.floorPlansText}>
                     <p className={styles.floorPlansTextPara}>
@@ -21,7 +21,11 @@ const FloorPlans = () => {
                     These luxurious 2, 3, and 4 BHK homes boast an exquisite facade and are thoughtfully designed. With no common walls, you’re assured of complete privacy, allowing you to relish moments of peace or celebrate occasions without the worry of disturbing neighbors.
                     Aligned with true Indic Vastu, each unit invites an abundance of natural light and embraces excellent ventilation, creating a harmonious living environment.
                     </p>
-                    <button type="button" className={styles.button}>Know More</button>
+                    <button type="button" className={styles.button}>
+                        <Link href="/project">
+                            Know More
+                        </Link>
+                    </button>
                 </div>
             </div>
         </section>

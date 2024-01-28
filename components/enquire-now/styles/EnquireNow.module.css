@@ -1,13 +1,14 @@
 .enquire {
-    margin: 2rem auto;
+    margin: 6rem auto;
     max-width: 1200px;
     padding: 2rem;
 }
 
 .enquireContainer {
-    width: 800px;
+    max-width: 600px;
+    width: 100%;
     background: #efefef;
-    padding: 4rem;
+    padding: 2rem 4rem 4rem;
     margin: auto;
 }
 
@@ -71,4 +72,18 @@
     color: #fff;
     margin-top: 1.5rem;
     letter-spacing: 3px;
+}
+
+@media screen and (max-width: 768px) {
+    .enquire {
+        margin: 4rem auto;
+        padding: 0;
+    }
+
+    .enquireContainer {
+        width: 80%;
+        background: #efefef;
+        padding: .5rem 1rem 1rem;
+        margin: auto;
+    }
 }

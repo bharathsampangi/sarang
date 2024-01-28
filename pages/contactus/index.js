@@ -1,9 +1,12 @@
 import Head from "next/head"
 import Navbar from "../../components/navbar/Navbar"
+import Holding from "../../components/holding/Holding"
+import Brochure from "../../components/brochure/Brochure"
 import Footer from "../../components/footer/Footer"
-import Features from "../../components/features/Features"
+import Info from "../../components/info/Info"
+import EnquireNow from "../../components/enquire-now/EnquireNow"
 
-export default function FeaturePage() {
+export default function ProjectPage() {
     return (
         <div>
             <Head>
@@ -17,10 +20,15 @@ export default function FeaturePage() {
                 <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
                 <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
                 <link rel="canonical" href="https://foliumbysumadhura.co.in/"></link>
+                <link rel="preconnect" href="https://fonts.googleapis.com" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+                <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet" />
             </Head>
             <main>
-                <Navbar active="features"/>
-                <Features />
+                <Navbar active="contactus" />
+                <Holding title='Contact Us'/>
+                <Info />
+                <EnquireNow />
                 <Footer />
             </main>
         </div>

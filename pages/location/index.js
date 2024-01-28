@@ -1,12 +1,11 @@
 import Head from "next/head"
 import Navbar from "../../components/navbar/Navbar"
 import Holding from "../../components/holding/Holding"
-import FloorPlansMultiple from "../../components/floor-plans-multiple/FloorPlansMultiple"
-import MasterPlan from "../../components/master-plan/MasterPlan"
-import Brochure from "../../components/brochure/Brochure"
 import Footer from "../../components/footer/Footer"
+import LocationMap from "../../components/location-map/LocationMap"
+import Brochure from "../../components/brochure/Brochure"
 
-export default function ProjectPage() {
+export default function Location() {
     return (
         <div>
             <Head>
@@ -25,10 +24,10 @@ export default function ProjectPage() {
                 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet" />
             </Head>
             <main>
-                <Navbar active="project" />
-                <Holding title='Project'/>
-                <FloorPlansMultiple />
-                <MasterPlan />
+                <Navbar active="location"/>
+                <Holding title='Location'/>
+                <LocationMap />
+                <Brochure link="/contactus#enquire"/>
                 <Footer />
             </main>
         </div>

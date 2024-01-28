@@ -4,7 +4,7 @@ import Logo from "../../public/images/Sarang-Logo1-1-650x650-2.png"
 import styles from "./styles/Navbar.module.css"
 import Link from "next/link";
 
-export default function Navbar({ active='' }) {
+export default function Navbar({ active='home' }) {
     return (
         <nav className={styles.nav}>
             <div className={styles.logo}>
@@ -23,24 +23,14 @@ export default function Navbar({ active='' }) {
                         Project
                     </Link>
                 </li>
-                <li className={`${active == "clubhouse" && styles.active}`}>
-                    <Link href="/clubhouse">
-                        Clubhouse
-                    </Link>
-                </li>
-                <li>
+                <li className={`${active == "location" && styles.active}`}>
                     <Link href="/location">
                         Location
                     </Link>
                 </li>
-                <li>
-                    <Link href="/aboutus">
-                        About Us
-                    </Link>
-                </li>
-                <li>
+                <li className={`${active == "contactus" && styles.active}`}>
                     <Link href="/contactus">
-                        Contact Us
+                        Contact
                     </Link>
                 </li>
             </ul>

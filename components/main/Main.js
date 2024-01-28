@@ -6,7 +6,7 @@ import Landing from "../landing/Landing"
 const Main = () => {
     return (
         <main>
-            <Navbar />
+            <Navbar active="home" />
             <Hero />
             <Landing />
         </main>
