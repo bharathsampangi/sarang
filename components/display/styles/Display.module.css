@@ -42,4 +42,16 @@
     .DisplayBlock > ul {
         display: block;
     }
+
+    .List > li {
+        flex-basis: 25%;
+        text-align: center;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #333;
+    }
+
+    .List > li:last-child {
+        padding-bottom: 0;
+        border-bottom: none;
+    }
 }
